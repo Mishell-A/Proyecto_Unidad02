@@ -1,28 +1,19 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-  margin: 0;
+  background-image: url(https://i.pinimg.com/originals/a0/65/a8/a065a805143b8efef4ff6badd7167b56.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
 
-.container {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+header {
+  font-size: 26px;
   text-align: center;
 }
 
-input[type="text"] {
-  width: 80%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+main {
+  display: flex;
 }
 
 button {
@@ -36,10 +27,4 @@ button {
 
 button:hover {
   background-color: #0056b3;
-}
-
-#encryptedText {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #333;
 }
