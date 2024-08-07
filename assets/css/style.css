@@ -27,7 +27,8 @@ main {
 }
 
 button:hover {
-  background-color: #0056b3;
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725ac1;
 }
 
 .caja-botones {
@@ -42,6 +43,7 @@ button {
   margin-top: 20px;
   width: 100%;
   border: 1px solid #000;
+  transition: ease-out 0.5s;
 }
 
 .text-in {
